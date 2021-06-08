@@ -1,38 +1,35 @@
 DataSet[1]: 
-	MysterySortA:	Best Case: 0.325	Worst Case: 0.656	Average Case: 0.3689
-	MysterySortB:	Best Case: 1.12	Worst Case: 1.564	Average Case: 1.20105
-	MysterySortC:	Best Case: 1.187	Worst Case: 1.496	Average Case: 1.25805
-	MysterySortD:	Best Case: 1.257	Worst Case: 2.009	Average Case: 1.36115
-	MysterySortE:	Best Case: 1.957	Worst Case: 3.333	Average Case: 2.1327
+	Insertion Sort:	Best Case: 0.121	Worst Case: 0.464	Average Case: 0.15215
+	Selection Sort:	Best Case: 0.437	Worst Case: 0.659	Average Case: 0.4782
+	Bubble Sort:	Best Case: 0.432	Worst Case: 0.565	Average Case: 0.46415
+	Quick Sort:	Best Case: 0.471	Worst Case: 0.769	Average Case: 0.51975
+	Merge Sort:	Best Case: 0.714	Worst Case: 1.27	Average Case: 0.8144
 
 DataSet[2]: 
-	MysterySortA:	Best Case: 43.501	Worst Case: 261.948	Average Case: 76.5979
-	MysterySortB:	Best Case: 37.931	Worst Case: 111.436	Average Case: 58.5207
-	MysterySortC:	Best Case: 69.325	Worst Case: 259.048	Average Case: 106.48
-	MysterySortD:	Best Case: 48.373	Worst Case: 209.376	Average Case: 78.1315
-	MysterySortE:	Best Case: 12.183	Worst Case: 67.784	Average Case: 20.2585
+	Insertion Sort:	Best Case: 43.882	Worst Case: 62.364	Average Case: 53.1887
+	Selection Sort:	Best Case: 38.667	Worst Case: 54.101	Average Case: 46.4389
+	Bubble Sort:	Best Case: 66.975	Worst Case: 94.355	Average Case: 80.3277
+	Quick Sort:	Best Case: 48.784	Worst Case: 82.062	Average Case: 59.5963
+	Merge Sort:	Best Case: 12.975	Worst Case: 23.074	Average Case: 16.0465
 
 DataSet[3]: 
-	MysterySortA:	Best Case: 1112.89	Worst Case: 1354.26	Average Case: 1169.81
-	MysterySortB:	Best Case: 857.702	Worst Case: 1069.4	Average Case: 913.629
-	MysterySortC:	Best Case: 1762.66	Worst Case: 2207.28	Average Case: 1888.51
-	MysterySortD:	Best Case: 651.98	Worst Case: 819.754	Average Case: 712.222
-	MysterySortE:	Best Case: 77.343	Worst Case: 154.688	Average Case: 84.0402
+	Insertion Sort:	Best Case: 1133	Worst Case: 1562.99	Average Case: 1238.77
+	Selection Sort:	Best Case: 870.701	Worst Case: 1206.28	Average Case: 953.026
+	Bubble Sort:	Best Case: 1785.52	Worst Case: 2367.98	Average Case: 1947.05
+	Quick Sort:	Best Case: 715.788	Worst Case: 1116.2	Average Case: 833.007
+	Merge Sort:	Best Case: 79.135	Worst Case: 110.563	Average Case: 86.6335
 
 DataSet[4]: 
-	MysterySortA:	Best Case: 4215.54	Worst Case: 5378.34	Average Case: 4565.36
-	MysterySortB:	Best Case: 3383.08	Worst Case: 3960.99	Average Case: 3634.14
-	MysterySortC:	Best Case: 7078.42	Worst Case: 9295.36	Average Case: 7657.22
-	MysterySortD:	Best Case: 1645.85	Worst Case: 2111.16	Average Case: 1785.61
-	MysterySortE:	Best Case: 170.289	Worst Case: 200.341	Average Case: 178.087
+	Insertion Sort:	Best Case: 4232.23	Worst Case: 10077.3	Average Case: 4694.53
+	Selection Sort:	Best Case: 3419.23	Worst Case: 4700.16	Average Case: 3644.28
+	Bubble Sort:	Best Case: 6909.12	Worst Case: 8675.8	Average Case: 7764.52
+	Quick Sort:	Best Case: 1728.17	Worst Case: 1880.91	Average Case: 1808.64
+	Merge Sort:	Best Case: 173.966	Worst Case: 241.494	Average Case: 183.747
 
 DataSet[5]: 
-	MysterySortA:	Best Case: 111534	Worst Case: 118005	Average Case: 114407
-	MysterySortB:	Best Case: 85753.2	Worst Case: 93082.5	Average Case: 88185.2
-	MysterySortC:	Best Case: 215827	Worst Case: 222963	Average Case: 218907
-	MysterySortD:	Best Case: 141100	Worst Case: 155687	Average Case: 148744
-	MysterySortE:	Best Case: 997.558	Worst Case: 1206.98	Average Case: 1056.19
+	Insertion Sort:	Best Case: 127296	Worst Case: 139656	Average Case: 131385
+	Selection Sort:	Best Case: 86070.2	Worst Case: 96837.1	Average Case: 91048.7
+	Bubble Sort:	Best Case: 184310	Worst Case: 202414	Average Case: 194495
+	Quick Sort:	Best Case: 161305	Worst Case: 177025	Average Case: 166235
+	Merge Sort:	Best Case: 1021.48	Worst Case: 1228.2	Average Case: 1083.77
 
-MysterySortC is BubbleSort.
-MysterySortD is QuickSort.
-MysterySortE is MergeSort.

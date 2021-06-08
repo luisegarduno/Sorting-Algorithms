@@ -48,11 +48,11 @@ class DSSorter {
   public:
 
     DSSorter(){
-      experiment[0] = new MysterySorterA<T>;
-      experiment[1] = new MysterySorterB<T>;
-      experiment[2] = new MysterySorterC<T>;
-      experiment[3] = new MysterySorterD<T>;
-      experiment[4] = new MysterySorterE<T>;
+      experiment[0] = new InsertionSort<T>;
+      experiment[1] = new SelectionSort<T>;
+      experiment[2] = new BubbleSort<T>;
+      experiment[3] = new QuickSort<T>;
+      experiment[4] = new MergeSort<T>;
 
       for(int p = 0; p < EXPERIMENT_SIZE; p++){
         theBest[p].push_back(100000000.00001);          // declare a VERY large number the best case (so it's easily replaced)
@@ -286,19 +286,19 @@ class DSSorter {
     void getMystery(int sorterNumber){                 // prints out the MysteryCase Sorter
       switch(sorterNumber) {
         case 0:
-          cout << "\tMysterySortA:";
+          cout << "\tInsertion Sort:";
           break;
         case 1:
-          cout << "\tMysterySortB:";
+          cout << "\tSelection Sort:";
           break;
         case 2:
-          cout << "\tMysterySortC:";
+          cout << "\tBubble Sort:";
           break;
         case 3:
-          cout << "\tMysterySortD:";
+          cout << "\tQuick Sort:";
           break;
         case 4:
-          cout << "\tMysterySortE:";
+          cout << "\tMerge Sort:";
           break;
         default:                                        // if 0 > sorterNumber or sorterNumber >= 5
           cout << "Invalid sort case...";

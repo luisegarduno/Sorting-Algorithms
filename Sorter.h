@@ -21,7 +21,7 @@ class Sorter {
 
 
 template <typename T>
-class MysterySorterA : public Sorter<T> {
+class InsertionSort : public Sorter<T> {
     public:
         virtual void sort() {   // Insertion sort
             // http://www.algolist.net/Algorithms/Sorting/Insertion_sort
@@ -40,7 +40,7 @@ class MysterySorterA : public Sorter<T> {
 };
                             
 template <typename T>
-class MysterySorterB : public Sorter<T> {
+class SelectionSort : public Sorter<T> {
     public:
         virtual void sort() {   // Selection Sort
             // http://www.algolist.net/Algorithms/Sorting/Selection_sort
@@ -64,7 +64,7 @@ class MysterySorterB : public Sorter<T> {
 };
 
 template <typename T>
-class MysterySorterC : public Sorter<T> {
+class BubbleSort : public Sorter<T> {
     private:
         void swap(int *a, int *b){
             int temp = *a;
@@ -90,7 +90,7 @@ class MysterySorterC : public Sorter<T> {
 };
 
 template <typename T>
-class MysterySorterD : public Sorter<T> {
+class QuickSort : public Sorter<T> {
     private:
         int low,high,vectorSize;
 
@@ -131,7 +131,7 @@ class MysterySorterD : public Sorter<T> {
 };
 
 template <typename T>
-class MysterySorterE : public Sorter<T> {
+class MergeSort : public Sorter<T> {
 
     private:
         int vectorSize;
